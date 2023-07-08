@@ -1,3 +1,4 @@
+
 document.addEventListener("touchstart", touch2Mouse, true);
 document.addEventListener("touchmove", touch2Mouse, true);
 document.addEventListener("touchend", touch2Mouse, true);
@@ -43,7 +44,7 @@ function rotateToMouse(e) {
       ${center.y / 100},
       ${-center.x / 100},
       0,
-      ${Math.log(distance)* 2}deg
+      ${Math.log(distance)* 3}deg
     )
   `;
   
@@ -52,8 +53,8 @@ function rotateToMouse(e) {
       circle at
       ${center.x * 2 + bounds.width/2}px
       ${center.y * 2 + bounds.height/2}px,
-      #ffffff55,
-      #0000000f
+      #fff,
+      #00000f0
     )
   `;
 }
@@ -68,4 +69,3 @@ $card.addEventListener('mouseleave', () => {
   $card.style.transform = '';
   $card.style.background = '';
 });
-
