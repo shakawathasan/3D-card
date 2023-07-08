@@ -69,3 +69,10 @@ $card.addEventListener('mouseleave', () => {
   $card.style.transform = '';
   $card.style.background = '';
 });
+
+jQuery(document).ready(function($) {
+  $("#link").on("touchstart", function(event) {
+      window.location.href = $(event.target).attr('href');
+    });
+ });
+
