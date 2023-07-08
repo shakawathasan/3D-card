@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
   }
@@ -9,14 +11,17 @@
     justify-content: center;
     align-items: center;
   }
-  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
   body {
     font-family: system-ui, sans-serif;
     perspective: 1500px;
     background: linear-gradient(#fff, #303030);
   }
   
-  .card {
+  .card {  
     font-weight: bold;
     padding: 1em;
     text-align: center;
@@ -44,14 +49,21 @@
   }
   .card .text h5{
     padding-top: 10px;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
   }
   .card .text p{
     font-size: 10px;
     padding-bottom: 20px;
+    font-family: 'Lora', serif;
+    font-weight: normal;
+
   }
   .card  .info{
     font-size: 12px;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
   }
   .card .social{
     text-align: start;
@@ -64,6 +76,9 @@
     text-decoration: none;
     color: #181A1A;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
   }
   .card .social .snap{
     padding-bottom: 15px;
@@ -72,6 +87,9 @@
     text-decoration: none;
     color: #181A1A;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
   }
   .card .social .fb{
     padding-bottom: 15px;
@@ -80,6 +98,9 @@
     text-decoration: none;
     color: #181A1A;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
   }
   /* .card .glow {
     position: absolute;
@@ -90,4 +111,7 @@
     
     background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
   } */
+  
+  
+  
   
