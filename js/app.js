@@ -1,4 +1,3 @@
-
 document.addEventListener("touchstart", touch2Mouse, true);
 document.addEventListener("touchmove", touch2Mouse, true);
 document.addEventListener("touchend", touch2Mouse, true);
@@ -69,10 +68,3 @@ $card.addEventListener('mouseleave', () => {
   $card.style.transform = '';
   $card.style.background = '';
 });
-
-jQuery(document).ready(function($) {
-  $("#link").on("touchstart", function(event) {
-      window.location.href = $(event.target).attr('href');
-    });
- });
-
